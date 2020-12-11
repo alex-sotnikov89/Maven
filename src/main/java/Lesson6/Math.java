@@ -1,7 +1,5 @@
 package Lesson6;
 
-import java.io.IOException;
-import java.util.Arrays;
 
 public class Math {
     public static void main(String[] args) {
