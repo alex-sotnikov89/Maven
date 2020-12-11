@@ -1,5 +1,4 @@
-package Lesson6
-        ;
+package Lesson6;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -33,6 +32,7 @@ public class MathTest {
     void shouldThrowRuntimeExceptionWhenValueNotFound(int[] parameters) {
         assertThatThrownBy(() -> Math.returnArrayAfterLastValue(parameters, 4)
         ).isInstanceOf(RuntimeException.class);
+
         //        Assertions.assertNotNull(
 //                Assertions.assertThrows(
 //                        RuntimeException.class,
